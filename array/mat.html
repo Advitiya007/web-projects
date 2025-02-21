@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mat.css">
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.23.0/full/pyodide.js"></script>
+<!-- web se pyodide cponnect krne ke liye cause it works with web browser -->
+
+</head>
+<body style="background-color: black; color: aliceblue;">
+    <h1> array matrix multiplication</h1>
+    <input type="number" id="n" placeholder="n">
+
+    <input type="text" id="userArrayInput" class="input" placeholder="Enter numbers separated by commas" />
+<input type="text" id="userArrayInput2" class="input" placeholder="Enter numbers separated by commas for matrix 2" />
+
+<button class="btn" onclick="runPy()">Submit THE VALUES</button>
+<div id="output" style="height: 200px; width: 200px; border: 10px solid red; margin-top: 20px;"></div>
+</body>
+    <script src="mat.js"></script>
+</html>

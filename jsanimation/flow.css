@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+
+
+body {
+    background-color: black;
+    /* color: white; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 0px; */
+
+}
+
+#nav{
+    height: 100px;
+    background-color: rgb(208, 95, 95);
+}
+
+.cont{
+/* margin-right: 10px; */
+  height: 50vh;
+  width: 100svw;
+  background-color: burlywood;
+position: absolute;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+
+
+}
+.flower{
+    color: brown;
+    background-color: rgb(226, 57, 122);
+    position: absolute;
+    /* if this absoluete ifs applied 
+    is not the flowers only some area */
+    border-radius: 100px;
+    
+}
+
+.parentinput{
+    display: flex;
+   height: 40vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+input::placeholder {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
+#nav{
+    height: 100px; */
+   
+   
+
+/* .parentinput{
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+input::placeholder {
+    color: rgb(5, 0, 0); 
+    font-style: italic; 
+    opacity: 1;  */
+
+.drop{
+   
+    margin-right: 100px;
+    height: 50px;
+    position: relative;
+    display: inline;
+}
+
+#input{
+   background-color: rgb(170, 215, 21);
+   background-color: rgb(208, 95, 95);
+  height: 60px;
+  width: 200px;
+}

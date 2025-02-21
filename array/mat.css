@@ -1,0 +1,22 @@
+/* body{
+/* display: flex; */
+
+
+
+
+
+
+
+
+.input{
+height: 50px;
+width: 300px;
+background-color: rgb(25, 193, 199);
+
+
+}
+.btn{
+    height: 70px;
+    text-decoration: wavy;
+    background-color: salmon;
+}
